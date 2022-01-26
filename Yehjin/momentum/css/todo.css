@@ -1,0 +1,60 @@
+#todo {
+  width: 650px;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#todo-form label {
+  color: white;
+  font-size: 30px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#todo-input {
+  text-align: center;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+}
+
+#todo-input:focus {
+  outline: none;
+}
+
+#todo-input:focus::placeholder {
+  color: transparent;
+}
+
+#todo-list-div {
+  width: 100%;
+  height: 130px;
+  color: white;
+}
+
+#todo-list {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+}
+
+#todo-list li:hover {
+  color: rgb(50, 86, 168);
+}
+
+#todo-list button {
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 20px;
+  margin-left: 12px;
+  cursor: pointer;
+  display: inline-block;
+}
